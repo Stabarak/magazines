@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>E-Magazine</title>
+	</head>
+	<style>
+	 h5
+	 { 
+	 text-align:center;
+	 display:inline-block;
+	 }
+	 </style>
+	<body style="background-image:url(dsc_0271.jpg);color:white;background-repeat:none;background-position:70%;text-shadow:3px 2px 4px grey;">body>
+		<h1 align="center">Welcome to E - Magazine</h1>
+		<h4 align="center">The World of Magazines</h4>
+		<div align="right">
+			<form method="post" action="http://localhost/magazine/logout.php">
+				<input style="align:right;" type="submit" name="logout" value="Log Out"/>
+			</form>
+		</div>
+		<hr>
+			<br>		<center>
+		<div style="width:60%">
+		<fieldset style="width:50%;" align="center"><legend>EDIT MENU</legend>
+			 <form name="form1" action="http://localhost/magazine/edit.php" method="post">
+				<input type="text" name="euname" placeholder="user name" vspace="5" required/>
+					<br/>
+				<input type="text" name="efname" placeholder="first name" vspace="5" required/>
+					</br>
+				<input type="text" name="elname" placeholder="last name" vspace="5" required/>
+					</br>
+				<input type="text" name="ephone" placeholder="phone" vspace="5" required/>
+					</br>
+				<input type="email" name="eemail" placeholder="uname@mail.com" vspace="5" required/>
+					</br>
+				<input type="password" name="epass" placeholder="password" vspace="5" required/>
+					</br>
+				<input type="text" name="egender" placeholder="M/F" vspace="5" required/>
+					</br>
+				<input type="submit" name="resubmit" value="Update" hspace="20"/>
+				<input type="reset" value="Clear" name="clear"/>
+		</fieldset>
+		</div>
+	</body>
+</html>

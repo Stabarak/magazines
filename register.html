@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body style="background-image:url(image-1_1_.jpg);background-repeat:none;background-position:30%;color:blue;text-shadow:3px 2px 4px grey;">
+<br/>
+ <h1 align="right" vspace="20">E-Magazine</h1>
+ <h2 align=center>Register Form</h2>
+<hr>
+
+<br/>
+<br/>
+<br/><center>
+<br/>
+<br/>
+<div>
+<fieldset style="width:30%;"><legend>REGISTER HERE</legend>
+ <form name="form1" action="http://localhost/magazine/register.php" method="post">
+<input type="text" name="huname" placeholder="user name" vspace="5" required/>
+<br/>
+<input type="text" name="hfname" placeholder="first name" vspace="5" required/>
+</br>
+<input type="text" name="hlname" placeholder="last name" vspace="5" required/>
+</br>
+<input type="text" name="hphone" pattern="[789][0-9]{9}" placeholder="phone" vspace="5" required/>
+</br>
+<input type="mail" name="hemail" placeholder="uname@mail.com" vspace="5" required/>
+</br>
+<input type="password" name="hpass" placeholder="password" vspace="5" required/>
+</br>
+<input type="text" name="hgender" placeholder="M/F" vspace="5" required/>
+</br>
+<input type="submit" name="submit1" value="Register" hspace="20"/>
+<input type="reset" value="Clear" name="clear"/>
+<a href="home.html"><h4>Already Have an Account</h4></a>
+</div>
+</form>
+</body>
+</html>
